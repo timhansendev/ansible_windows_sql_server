@@ -1,0 +1,5 @@
+- name: Install SQL Server Windows
+  hosts: win
+  tags: install_mssql
+  roles:
+    - { role: mssql }
